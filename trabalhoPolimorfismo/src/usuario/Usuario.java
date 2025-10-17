@@ -1,12 +1,15 @@
+package usuario; 
+
+
 public class Usuario {
 
-    private Sting nome;
-    private Sting sobrnome;
+    private String nome;
+    private String sobrnome;
     private String sexo;
     private int id;
     private int idade;
 
-    @Override
+    // @Override
     public Usuario(String nome, String sobrenome, String sexo, int id, int idade){
         this.nome = nome;
         this.sobrnome = sobrenome;
@@ -35,7 +38,7 @@ public class Usuario {
         return sexo;
     }
 
-    public void setSexo(int sexo){
+    public void setSexo(String sexo){
         this.sexo = sexo;
     }
 
@@ -55,12 +58,12 @@ public class Usuario {
         this.idade = idade;
     }
 
-    @Override
+   
     public void acessandoSistema(){
         System.out.println("Acesso concedido com sucesso" + nome);
     }
     
-    @Override
+    
     public int acessandoPorId (String nome){
         return id;
     }
