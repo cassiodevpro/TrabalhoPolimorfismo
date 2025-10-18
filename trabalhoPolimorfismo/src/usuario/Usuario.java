@@ -60,12 +60,11 @@ public class Usuario {
 
    
     public void acessandoSistema(){
-        System.out.println("Acesso concedido com sucesso" + nome);
+        System.out.println("Acesso concedido com sucesso " + nome + sobrnome + "Sexo: " + sexo + "id: " + id + "idade: " + idade);
     }
     
     
     public int acessandoPorId (String nome){
         return id;
     }
-
 }
