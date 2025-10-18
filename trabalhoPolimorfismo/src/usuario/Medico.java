@@ -24,7 +24,7 @@ public class Medico extends Usuario {
                 break;
             default:
                 System.out.println("caractere invalido");
-                return; // método void — encerra a execução aqui
+                return;
         }
 
         System.out.println("Acesso concedido com sucesso " 

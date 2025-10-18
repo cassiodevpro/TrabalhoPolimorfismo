@@ -9,7 +9,7 @@ public class Usuario {
     private int id;
     private int idade;
 
-    // @Override
+    
     public Usuario(String nome, String sobrenome, String sexo, int id, int idade){
         this.nome = nome;
         this.sobrnome = sobrenome;
